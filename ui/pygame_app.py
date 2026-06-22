@@ -56,7 +56,6 @@ class PygameApp:
 
         # Fuente para mostrar estado en pantalla + Cargar sprites:
         self.font = pygame.font.Font(None, 22)
-        self.assets_dir = Path(__file__).resolve().parents[1] / "assets"
         self.sprites = self._load_sprites()
 
         # Para pintar arrastrando:
