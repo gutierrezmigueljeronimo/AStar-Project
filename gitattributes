@@ -1,4 +1,3 @@
-# Excluye carpetas que no son código fuente del recuento de lenguajes de GitHub
 build/**         linguist-vendored
 dist/**          linguist-vendored
 readme_assets/** linguist-documentation
