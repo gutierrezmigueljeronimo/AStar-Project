@@ -65,6 +65,7 @@ AStarCity/
 │   └── astar_city/
 │       ├── astar.py             # A* implementation
 │       ├── astar_stepper.py     # A* as a Python generator (drives the animation)
+│       ├── constants.py         # Grid dimensions, cell size, FPS and animation speeds
 │       ├── dijkstra.py          # Dijkstra implementation
 │       ├── grid.py              # Grid, neighbour expansion, weight lookup
 │       ├── heuristics.py        # Octile distance heuristic
@@ -76,9 +77,10 @@ AStarCity/
 ├── tests/
 │   ├── test_astar_basic.py      # Basic pathfinding correctness tests
 │   └── test_astar_weighted.py   # Weighted terrain tests
+├── tools/
+│   └── demo_neighbors.py        # Development utility — neighbour expansion debugger
 ├── assets/                      # Sprite assets
-├── readme_assets/               # Screenshots and demo GIF
-└── build/                       # Compiled Windows executable (see Releases)
+└── readme_assets/               # Screenshots and demo GIF
 ```
 
 ---
@@ -124,10 +126,4 @@ AStarCity-windows-x64/
 
 ## Academic context
 
-Built as an individual assignment for the *AI and Big Data* specialisation course at EUSA — Cámara de Comercio de Sevilla (2025).
-
----
-
-## License
-
-MIT
+Built as an individual assignment for the *AI and Big Data* specialisation course at EUSA — Cámara de Comercio de Sevilla (2026).
