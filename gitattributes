@@ -1,4 +1,2 @@
-build/**         linguist-vendored
-dist/**          linguist-vendored
 readme_assets/** linguist-documentation
 assets/**        linguist-documentation
